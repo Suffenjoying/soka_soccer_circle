@@ -1,0 +1,175 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background: lightseagreen;
+    color: beige;
+    padding-left: 10px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-item{
+    display: flex;
+    padding: 20px 20px;
+}
+
+.nav-item a {
+    padding: 5px;
+    margin-left: 5px;
+}
+
+.nav-item a:hover {
+    opacity: .5;
+}
+
+.nav-right {
+    font-weight: bold;
+    padding-top: 30px;
+    padding-right: 10px;
+    color: lightblue;
+}
+
+/* images and texts */
+
+.navbar {
+    margin: 30px 0;
+    background-color: aqua;
+}
+
+.whoisus {
+    font-size: 20px;
+    padding-left: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+.main {
+    display: flex;
+}
+
+.img1:hover,.img2:hover {
+    transition: .5s;
+    opacity: .3;
+}
+
+.img-text1:hover .text1,.img-text2:hover .text2 {
+    display: block;
+}
+
+
+.text1 {
+    font-size: 15px;
+    font-weight: bold;
+    position: absolute;
+    top: 300px;
+    left: 20px;
+    color: black;
+    display: none;
+}
+
+.text2{
+    font-size: 15px;
+    font-weight: bold;
+    position: absolute;
+    top: 300px;
+    right: 20px;
+    color: black;
+    display: none;
+}
+
+/* about us  */
+.hammad {
+    margin: 30px 0 50px 0;
+    display: flex;
+}
+
+.img3,.img4 {
+    margin-right: 30px;
+}
+
+.img3:hover,.img4:hover {
+    opacity: .9;
+}
+
+.takuya {
+    margin: 30px 0 50px 0;
+    display: flex;
+}
+
+/* contact us */
+.bottom {
+    margin-top: 50px;
+    background-color: rgb(143, 183, 218);
+}
+
+.bottomtitle {
+    padding: 20px;
+    background-color: rgb(75, 174, 204);
+}
+
+.bottommain {
+    padding-top: 30px;
+}
+
+.form {
+    padding-left: 20px;
+}
+
+.name {
+    display: flex;
+    padding-left: 30px;
+}
+
+.email {
+    display: flex;
+    padding-left: 20px;
+}
+.message {
+    display: flex;
+}
+
+.send {
+    display: flex;
+    padding-left: 20px;
+}
+
+.send-click {
+    padding-right: 8px;
+}
+
+.na {
+    padding-right: 10px;
+}
+
+.em {
+    padding-right: 10px;
+}
+.me {
+    padding-right: 10px;
+}
+
+.name:hover,.email:hover,.message:hover {
+    opacity: .8;
+}
+
+
+/* bottombar */
+.bottombar {
+    font-size: 25px;
+    margin-top: 70px;
+    background-color: rgb(86, 196, 211);
+    color: aliceblue;
+    text-align: center;
+}
